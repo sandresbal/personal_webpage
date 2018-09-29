@@ -212,8 +212,9 @@ p{
     padding-bottom: 30px;
 }
 
-.content-home p{
+.content-home p {
     padding-top: 50px;
+    color: white;
     background-image: url('../img/home-path.png');
     background-repeat: no-repeat;
 }
