@@ -80,6 +80,11 @@ h3 {
     font-size: 28px;
 }
 
+h6{
+    font-family: 'Lora';
+    font-size: 22px;
+}
+
 p {
     font-family: 'Lora';
     font-size: 18px;
@@ -328,4 +333,39 @@ nav {
     display:flex;
     align-items: center;
     padding-right: 40px;
+}
+
+/* Estilos para la página de detalle*/
+
+.content-detail {
+    width: 100%;
+    height: auto;
+    padding-top: 120px;
+    background-image: url('../img/detail-bg.jpg');
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+
+.detail-box{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.detail-block{
+    width: 100%;
+    height: auto;
+    padding: 30px 10%;
+    background-color: white;
+    border: 1px solid black;
+    box-sizing: border-box;
+    margin: 20px auto;
+    box-shadow: 5px 10px rgba(0, 0, 0, .16);
+}
+
+.detail-text{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-column-gap: 7%;
 }
