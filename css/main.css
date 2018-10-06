@@ -118,7 +118,7 @@ header {
 }
 
 #social-block {
-    width: 50%;
+    width: 70%;
     display: flex;
     justify-content: flex-end;
 }
@@ -187,13 +187,12 @@ header {
 }
 
 nav {
-    width: 25%;
-    height: 900px;
-    padding: 100px 98px 0 92px;
+    width: 100%;
+    height: 100%;
+    padding: 100px 20% 0 20%;
     border: 1px solid black;
     background-color: #FCFCFD;
     box-sizing: border-box;
-    position: fixed;
     z-index: 1000;
 }
 
@@ -206,6 +205,7 @@ nav {
 }
 
 .items-wrapper li {
+    min-width: 100px;
     list-style: none;
     text-align: center;
     padding: 30px 0 30px 0;
@@ -226,7 +226,7 @@ nav {
 
 .content-home {
     width: 100%;
-    height: 900px;
+    height: 100vh;
     background-image: url('../img/bg_home_compress.jpg');
     background-repeat: no-repeat;
     box-sizing: border-box;
@@ -407,6 +407,7 @@ p {
     width: 100%;
     height: auto;
     padding-top: 120px;
+    padding-bottom: 100px;
     background-image: url('../img/contact-bg.jpg');
     background-repeat: no-repeat;
     box-sizing: border-box;
@@ -469,17 +470,17 @@ p {
     display: none;
 }
 
+
 /* Para 960px */
 
 @media only screen and (max-width: 980px) and (min-width: 821px) {
     nav {
-        width: 25%;
-        height: 900px;
+        width: 100%;
+        height: 100vh;
         border: 1px solid black;
         background-color: #FCFCFD;
         box-sizing: border-box;
         padding-left: 60px !important;
-        position: fixed;
         z-index: 1000;
         display: grid;
         grid-template-columns: 90%;
@@ -526,6 +527,7 @@ p {
 
     nav {
         width: 100% !important;
+        height: 100vh;
         padding: 100px 98px 0 92px;
         border: 1px solid black;
         background-color: #FCFCFD;
@@ -545,12 +547,12 @@ p {
     .ico-menu-wrapper {
         display: initial !important;
         width: 100%;
-        padding: 10px;
+        padding: 20px !important;
         box-sizing: border-box;
     }
 
     #menu-ico {
-        width: 60px;
+        width: 50px !important;
         height: auto;
     }
 
@@ -663,12 +665,12 @@ p {
     .ico-menu-wrapper {
         display: initial !important;
         width: 100%;
-        padding: 10px;
+        padding: 20px;
         box-sizing: border-box;
     }
 
     #menu-ico {
-        width: 60px;
+        width: 50px;
         height: auto;
     }
 
@@ -685,6 +687,7 @@ p {
     .bar-text-wrapper-mov{
         text-align: center;
         padding-bottom: 20px;
+
     }
 
     .wrapper-ico-mov {
@@ -832,6 +835,7 @@ p {
         width: 100%;
         height: auto;
         padding-top: 120px;
+        padding-bottom: 80px;
         background-image: url('../img/contact-bg.jpg');
         background-repeat: no-repeat;
         box-sizing: border-box;
@@ -861,7 +865,7 @@ p {
         border: 1px solid black;
         background-color: #FCFCFD;
         box-sizing: border-box;
-        position: fixed;
+        position: initial;
         z-index: 1000;
     }
 
@@ -876,12 +880,12 @@ p {
     .ico-menu-wrapper {
         display: initial !important;
         width: 100%;
-        padding: 10px;
+        padding: 20px;
         box-sizing: border-box;
     }
 
     #menu-ico {
-        width: 60px;
+        width: 50px;
         height: auto;
     }
 
@@ -1026,6 +1030,7 @@ p {
     }
 
     /*adaptación para la página de detail*/
+    
     .content-detail {
         width: 100%;
         height: auto;
@@ -1051,6 +1056,7 @@ p {
         width: 100%;
         height: auto;
         padding-top: 120px;
+        padding-bottom: 80px;
         background-image: url('../img/contact-bg.jpg');
         background-repeat: no-repeat;
         box-sizing: border-box;
@@ -1108,11 +1114,11 @@ p {
 
     nav {
         width: 100% !important;
-        padding: 100px 98px 0 92px;
+        padding: 100px 92px 0 92px;
         border: 1px solid black;
         background-color: #FCFCFD;
         box-sizing: border-box;
-        position: fixed;
+        position: initial;
         z-index: 1000;
     }
 
@@ -1127,12 +1133,12 @@ p {
     .ico-menu-wrapper {
         display: initial !important;
         width: 100%;
-        padding: 2px;
+        padding: 20px !important;
         box-sizing: border-box;
     }
 
     #menu-ico {
-        width: 60px;
+        width: 50px !important;
         height: auto;
     }
 
@@ -1302,6 +1308,7 @@ p {
         width: 100%;
         height: auto;
         padding-top: 120px;
+        padding-bottom: 80px;
         background-image: url('../img/contact-bg.jpg');
         background-repeat: no-repeat;
         box-sizing: border-box;
